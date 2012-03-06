@@ -1,6 +1,8 @@
 User Pain bug triage for Redmine
 =============================
 
+Continuing development of the user pain plugin started by theodoreb.  This is my first redmine plugin...
+
 As advertised on [Lost Garden](http://www.lostgarden.com/2008/05/improving-bug-triage-with-user-pain.html).
 
 
