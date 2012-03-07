@@ -7,9 +7,9 @@ module QueryPatch
     # Same as typing in the class 
     base.class_eval do
       unloadable # Send unloadable so it will not be unloaded in development
-      #base.add_available_column(QueryColumn.new(:user_pain, {
-      #  :sortable => true
-      #}))
+      base.add_available_column(QueryColumn.new(:user_pain, {
+        :sortable => true
+      }))
         
       alias_method :redmine_available_filters, :available_filters
     end
