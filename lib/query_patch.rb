@@ -29,4 +29,4 @@ module QueryPatch
 end
 
 # Add module to Query
-Query.send(:include, QueryPatch)
+#Query.send(:include, QueryPatch)
